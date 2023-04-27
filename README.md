@@ -23,6 +23,8 @@ torch_sparse==0.6.11
 python train_drug.py
 ```
 4. draw main picture through running ./code/main_pic.ipynb
+![M-Figure2(2)](https://user-images.githubusercontent.com/88961297/234868810-fca3c9d4-12d9-445a-a312-bfa16eae5b08.svg)
+
 
 ![5fold-manner](https://user-images.githubusercontent.com/88961297/234865945-7147c83f-d5a2-4898-8e77-cc8d22b67551.jpg)
 

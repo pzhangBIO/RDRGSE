@@ -7,10 +7,10 @@ from module.mi_nce import MI_NCE
 from module.fusion import Fusion,fuse
 
 
-class Cogsl(nn.Module):
+class RDRGSE(nn.Module):
     def __init__(self, num_feature, cls_hid_1, num_class, gen_hid, mi_hid_1,
                  com_lambda_v1, com_lambda_v2, lam, alpha, cls_dropout, ve_dropout, tau, pyg, big, batch, name):
-        super(Cogsl, self).__init__()
+        super(RDRGSE, self).__init__()
         self.cls = Classification(num_feature, cls_hid_1, num_class, cls_dropout, pyg)
         self.ve = View_Estimator(num_feature, gen_hid, com_lambda_v1, com_lambda_v2, ve_dropout, pyg)
         self.mi = MI_NCE(num_feature, mi_hid_1, tau, pyg, big, batch)

@@ -2,7 +2,7 @@ import numpy as np
 import random
 import torch
 import torch.nn.functional as F
-from cogsl import Cogsl
+from RDRGSE import RDRGSE
 import warnings
 from copy import deepcopy
 from sklearn.metrics import f1_score
